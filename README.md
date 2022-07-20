@@ -9,3 +9,4 @@ Demo:
 Images are located inside `public` folder.
 
 Font used: Lato
+# grocery-store
