@@ -3,6 +3,7 @@
   height: calc(100% - 49px);
   width: 28%;
   margin: 10px 0px;
+  margin-right: 10px;
   display: flex;
   padding: 15px;
   padding-top: 8px;
