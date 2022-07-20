@@ -1,0 +1,27 @@
+#cart {
+  position: absolute;
+  height: calc(100% - 49px);
+  width: 28%;
+  margin: 10px 0px;
+  display: flex;
+  padding: 15px;
+  padding-top: 8px;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(120, 120, 120, 0.953);
+  transition: right 1s ease;
+}
+
+#cartHeader,
+#cartFooter {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#cartFooter {
+  margin-top: 10px;
+}

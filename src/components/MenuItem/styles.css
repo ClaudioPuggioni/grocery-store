@@ -1,0 +1,52 @@
+.menuItem {
+  height: 120px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(120, 120, 120, 0.953);
+  overflow: hidden;
+}
+.itemImageDiv {
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.menuItem img {
+  height: 100px;
+  margin: 8px;
+}
+.itemDetails {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.itemControls {
+  height: 20px;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.minus,
+.plus {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.minus {
+  background-color: firebrick;
+}
+.plus {
+  background-color: rgb(160, 102, 160);
+}

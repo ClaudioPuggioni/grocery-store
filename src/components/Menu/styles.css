@@ -1,0 +1,7 @@
+#menu {
+  height: 100%;
+  width: 70%;
+  padding-bottom: 30px;
+  padding-left: 3px;
+  transition: width 1s ease;
+}

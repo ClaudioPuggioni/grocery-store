@@ -1,0 +1,7 @@
+#shop {
+  position: relative;
+  height: auto;
+  width: 100%;
+
+  display: flex;
+}
